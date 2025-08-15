@@ -29,11 +29,11 @@ It consolidates multiple services like:
 src/
  ├─ routes/        # API route definitions
  ├─ controllers/   # Service logic
- ├─ middleware/    # Logging, error handling, etc.
- ├─ utils/         # Helper functions
+ ├─ middleware/    # Error handling and other middleware
+ ├─ utils/         # Logging utilities and helper functions
  ├─ config/        # App configuration files
- └─ index.js       # Entry point
-```
+ └─ server.js      # Entry point
+````
 
 ---
 
