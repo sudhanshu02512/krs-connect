@@ -26,7 +26,7 @@ router.get("/", (req, res) => {
 });
 
 /**Delayer*/
-router.get("/delayer", (req, res) => {
+router.post("/delayer", (req, res) => {
   const time = req.body?.time;
   if (time) {
     setTimeout(() => {
